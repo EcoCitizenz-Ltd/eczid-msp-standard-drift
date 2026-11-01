@@ -1,5 +1,5 @@
 name: "ECZ-ID MSP Standard Drift"
-description: "Compare a customer repository's current machine-trust projection with an MSP-approved baseline without making a universal trust or compliance verdict."
+description: "Compare current machine-trust evidence with an MSP-approved baseline without a universal trust verdict."
 author: EcoCitizenz Ltd
 branding:
   icon: shield
