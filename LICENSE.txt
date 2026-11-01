@@ -1,0 +1,6 @@
+ECZ-ID MSP GitHub Action Discovery Wrappers — Proprietary License
+Copyright (c) 2026 EcoCitizenz. All rights reserved.
+
+Permission is granted to install and use the distributed wrapper for its intended purpose through GitHub Actions. The wrapper and underlying ECZ-ID implementation remain proprietary and may not be republished, sold, sublicensed or used to create a competing derivative distribution without prior written permission.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. ECZ-ID observations do not constitute a safety, certification, compliance or approval decision.
