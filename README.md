@@ -37,7 +37,7 @@ jobs:
 2. Run it manually with **Run workflow**.
 3. Review the job output and generated local evidence report.
 4. Use the bounded outputs below in your own MSP/customer policy.
-5. If you want the wider estate view, [run the free MSP / MSSP Machine Trust Check](https://msp.ecocitizenz.com/trust-check?utm_source=github&utm_medium=action-readme&utm_campaign=msp-machine-trust&utm_content=eczid-msp-standard-drift).
+5. If you want the wider estate view, [run the free MSP / MSSP Machine Trust Check](https://msp.ecocitizenz.com/trust-check?utm_source=github&utm_medium=action-readme&utm_campaign=msp-machine-trust&utm_content=eczid-msp-standard-drift&ecz_source=github&ecz_surface=eczid-msp-standard-drift&intent=msp-machine-trust-check).
 
 ## Minimal Action step
 
