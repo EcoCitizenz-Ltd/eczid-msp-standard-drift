@@ -2,9 +2,46 @@
 
 Compare a customer repository's current machine-trust projection with an MSP-approved baseline without making a universal trust or compliance verdict.
 
+**Start without an ECZ-ID account or API key.** GitHub Actions runner usage follows your GitHub plan.
+
 This is a thin GitHub Marketplace discovery wrapper over the already-tested ECZ-ID MSP engine. It delegates to immutable engine commit `fedb5cb7633e7cf74c952291a7fbe302e5333af6`; it does not duplicate the engine or create a second source of truth.
 
-## Quick start
+## Run it now
+
+Create `.github/workflows/eczid-msp.yml`, paste this complete first-run workflow, commit it, then run it from the **Actions** tab.
+
+```yaml
+name: ECZ-ID MSP Standard Drift
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  eczid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - uses: EcoCitizenz-Ltd/eczid-msp-standard-drift@v1
+        with:
+          mode: propose
+```
+
+### First-run path
+
+1. Add the workflow above.
+2. Run it manually with **Run workflow**.
+3. Review the job output and generated local evidence report.
+4. Use the bounded outputs below in your own MSP/customer policy.
+5. If you want the wider estate view, [run the free MSP / MSSP Machine Trust Check](https://msp.ecocitizenz.com/trust-check?utm_source=github&utm_medium=action-readme&utm_campaign=msp-machine-trust&utm_content=eczid-msp-standard-drift).
+
+## Minimal Action step
+
+Already have a workflow? Add only this step:
 
 ```yaml
 - uses: EcoCitizenz-Ltd/eczid-msp-standard-drift@v1
